@@ -1,0 +1,22 @@
+
+
+The orginal question, how can cryptocurrency improve the economic situation of
+marginalized communiites, is difficult because blockchain ledgers do not contain
+demographic or geographic information.
+
+ 
+We can grab data from digital platforms like Coinbase or Robinhood to get more detailed
+user data. 
+	--> TODO: research platforms that might contain user information related to 
+		cryptocurrenies 
+
+ 
+We can cross-reference data from traditional financial institutions. Such information
+may include overdraft fees, volume of transcations, etc. We are not necessarily 
+limited to blockchian ledgers.
+
+Tenative Question: 
+Can Adoption of Digital Currency Alleviate Predatory Payday Loans That Are 
+Rampant in Marginalized Communities?
+
+Formulate questions for stakeholders and technical contacts. 
