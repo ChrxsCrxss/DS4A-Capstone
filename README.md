@@ -1,6 +1,6 @@
 DS4A-Capstone
 ==============================
-
+Chris Cross, Merian Gabra, Elizabeth Nyami, Ryan Jamison, Matewos Sebsibe
 Capstone Project for DS4A
 
 Project Organization
