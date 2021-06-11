@@ -1,6 +1,7 @@
 import json
 import pandas as pd
 import states_dictionary as states_dict
+import utilities
 
 
 def run():
@@ -14,17 +15,11 @@ def run():
     # drop the first four row (poor excel formatting)
     df_poverty = df_poverty[4:]
 
-    # drop columns with data before 2013
-    for column_name in df_poverty.columns:
-        try:
-            year = int(column_name[-4:])
-            if year < 2013:
-                df_poverty.drop([column_name], axis=1, inplace=True)
-        except Exception as e:
-            print(e, column_name)
-            continue
+    # drop columns with data before TIME_HORIZON_START value
+    df_poverty = utilities.enforce_time_horizon_start(df_poverty)
 
     # remove confidence interval columns and other unneeded column
+    # by indexing the columns we want to keep
     df_poverty = df_poverty[["state", "county", "POVALL_2019", "PCTPOVALL_2019", "POV017_2019", "PCTPOV017_2019",
                             "MEDHHINC_2019",
                              ]]
@@ -62,6 +57,9 @@ def run():
         # type checking
         print(str(column) + "    " + str(df_poverty[column].dtype))
         assert(df_poverty[column].dtype != 'object')
+
+    # call utilities funtion to filter out non-states
+    df_poverty = utilities.remove_non_states(df_poverty)
 
     df_poverty.to_csv(
         '../../data/interim/POVERTY_ESTIMATES_2019.csv', index=False)

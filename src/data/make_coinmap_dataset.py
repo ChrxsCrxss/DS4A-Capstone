@@ -2,7 +2,7 @@ import json
 import pandas as pd
 import requests
 import os.path
-import elt_utilities
+import utilities
 
 """
 This is the main portion of the ETL pipeline for coinmap data. We make
@@ -24,7 +24,7 @@ def run():
         assert(venues_array != None)
         assert(len(venues_array) > 0)
 
-        print(f"{elt_utilities.bcolors.OKGREEN}GET request from Coinmap API successful. Getting state and county info...\n{elt_utilities.bcolors.ENDC}")
+        print(f"{utilities.bcolors.OKGREEN}GET request from Coinmap API successful. Getting state and county info...\n{utilities.bcolors.ENDC}")
 
         # This filtering step reduces the number of records from 22787 to 7379
         # This still means we have to call the API 7379 times. Unfortunately
@@ -71,7 +71,7 @@ def run():
             else:
                 print(response.status_code, response)
 
-        print(f"{elt_utilities.bcolors.OKGREEN}Filtering complete. Saving data to ../../data/raw/COINMAP_DATA_USA...\n{elt_utilities.bcolors.ENDC}")
+        print(f"{utilities.bcolors.OKGREEN}Filtering complete. Saving data to ../../data/raw/COINMAP_DATA_USA...\n{utilities.bcolors.ENDC}")
         # Since the continuous process of calling the API for each record is so expensive
         # we will want to save the data as soon as possible. Although the data has been
         # feature enigeered to some degree, it is still 'raw', so we will save it to the
@@ -80,7 +80,7 @@ def run():
         df_venues_usa.to_csv('../../data/raw/COINMAP_DATA_USA', index=False)
 
     else:
-        print(f'{elt_utilities.bcolors.OKBLUE}Local data cache detected. Reading from ../../data/raw/COINMAP_DATA_USA...\n{elt_utilities.bcolors.ENDC}')
+        print(f'{utilities.bcolors.OKBLUE}Local data cache detected. Reading from ../../data/raw/COINMAP_DATA_USA...\n{utilities.bcolors.ENDC}')
 
     df_venues_usa = pd.read_csv('../../data/raw/COINMAP_DATA_USA')
 
@@ -110,8 +110,11 @@ def run():
         else:
             assert(df_venues_usa[column].dtype != 'object')
 
+    # call utilities funtion to filter out non-states
+    df_venues_usa = utilities.remove_non_states(df_venues_usa)
+
     # save to interm data folder
-    print(f"{elt_utilities.bcolors.OKGREEN}Coinmap data extraction and transformation complete. Saving to ../../data/interim/CRYTO_VENUES_USA...\n{elt_utilities.bcolors.ENDC}")
+    print(f"{utilities.bcolors.OKGREEN}Coinmap data extraction and transformation complete. Saving to ../../data/interim/CRYTO_VENUES_USA...\n{utilities.bcolors.ENDC}")
     df_venues_usa.to_csv(
         '../../data/interim/CRYTO_VENUES_USA.csv', index=False)
 

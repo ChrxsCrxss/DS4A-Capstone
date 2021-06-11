@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import utilities
 
 
 def run():
@@ -35,6 +36,9 @@ def run():
             assert(df_broadband[column].dtype == 'string')
         else:
             assert(df_broadband[column].dtype != 'object')
+
+    # call utilities funtion to filter out non-states
+    df_broadband = utilities.remove_non_states(df_broadband)
 
     # save cleaned data to interm data directory
     df_broadband.to_csv(

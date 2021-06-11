@@ -1,5 +1,6 @@
 import json
 import pandas as pd
+import utilities
 
 
 def run():
@@ -11,15 +12,8 @@ def run():
     # drop the first 4 rows that contain all Nan values and/or column headers
     df_pop = df_pop.drop([0, 1, 2, 3])
 
-    # drop columns with data before 2013
-    for column_name in df_pop.columns:
-        try:
-            year = int(column_name[-4:])
-            if year < 2013:
-                df_pop.drop([column_name], axis=1, inplace=True)
-        except Exception as e:
-            print(e, column_name)
-            continue
+    # drop columns with data before TIME_HORIZON_START value
+    df_pop = utilities.enforce_time_horizon_start(df_pop)
 
     # this will drop state-level data and data for Puerto Rico
     df_pop = df_pop.dropna()
@@ -47,6 +41,9 @@ def run():
             df_pop[column] = df_pop[column].astype('float')
         print(str(column) + "    " + str(df_pop[column].dtype))
         assert(df_pop[column].dtype != 'object')
+
+    # call utilities funtion to filter out non-states
+    df_pop = utilities.remove_non_states(df_pop)
 
     df_pop.to_csv(
         '../../data/interim/POPULATION_ESTIMATES_2013_to_2019.csv', index=False)

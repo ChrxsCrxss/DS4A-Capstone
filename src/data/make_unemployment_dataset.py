@@ -1,6 +1,7 @@
 import pandas as pd
 import re
 import states_dictionary as states_dict
+import utilities
 
 import sys
 import subprocess
@@ -26,15 +27,8 @@ def run():
     # Reset index to begin with 0 and drop previous index column
     df_unemployment = df_unemployment.reset_index().drop('index', axis=1)
 
-    # drop columns with data before 2013
-    for column_name in df_unemployment.columns:
-        try:
-            year = int(column_name[-4:])
-            if year < 2013:
-                df_unemployment.drop([column_name], axis=1, inplace=True)
-        except Exception as e:
-            print(e, column_name)
-            continue
+    # drop columns with data before TIME_HORIZON_START value
+    df_unemployment = utilities.enforce_time_horizon_start(df_unemployment)
 
     # normalize state column values
     df_unemployment['state'] = df_unemployment['state'].replace(
@@ -70,8 +64,11 @@ def run():
         print(str(column) + "    " + str(df_unemployment[column].dtype))
         assert(df_unemployment[column].dtype != 'object')
 
+    # call utilities funtion to filter out non-states
+    df_unemployment = utilities.remove_non_states(df_unemployment)
+
     df_unemployment.to_csv(
-        '../../data/interim/Unemployment_By_County_2013_to_2019.csv', index=False)
+        '../../data/interim/UNEMPLOYMENT_by_COUNTY_2013_to_2019.csv', index=False)
 
 
 if __name__ == '__main__':

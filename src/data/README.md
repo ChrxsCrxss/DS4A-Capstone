@@ -9,6 +9,11 @@ thorough examination of the data to determine which columns can be discarded.
     The venue dataset will needed to be feature-engineered to get year-by-year counts
     of venues at the county level for the interval 2012-2019
 
+    We will need to remove census tract data as well. A census tract
+    is a subunit of a county. The coinmap dataset contains no
+    references to census tracts, so this shouldn't be an issue going
+    forward
+
 Extraction:
 Most of the raw data is kept within the project in the data/raw folder. Geospatial data for
 cryptocurrency-supporting venues is extracted via a single GET request from the Coinmap API.
