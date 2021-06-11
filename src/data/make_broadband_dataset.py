@@ -38,4 +38,8 @@ def run():
 
     # save cleaned data to interm data directory
     df_broadband.to_csv(
-        '../../data/interim/BROADBAND_2017_to_2018', index=False)
+        '../../data/interim/BROADBAND_2017_to_2018.csv', index=False)
+
+
+if __name__ == '__main__':
+    run()

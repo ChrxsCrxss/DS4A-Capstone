@@ -49,7 +49,7 @@ def run():
         assert(df_pop[column].dtype != 'object')
 
     df_pop.to_csv(
-        '../../data/interim/POPULATION_ESTIMATES_2013_to_2019', index=False)
+        '../../data/interim/POPULATION_ESTIMATES_2013_to_2019.csv', index=False)
 
 
 if __name__ == '__main__':

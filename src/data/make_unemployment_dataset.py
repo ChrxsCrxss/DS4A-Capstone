@@ -71,7 +71,7 @@ def run():
         assert(df_unemployment[column].dtype != 'object')
 
     df_unemployment.to_csv(
-        '../../data/interim/Unemployment_By_County_2013_to_2019', index=False)
+        '../../data/interim/Unemployment_By_County_2013_to_2019.csv', index=False)
 
 
 if __name__ == '__main__':

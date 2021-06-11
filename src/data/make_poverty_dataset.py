@@ -63,7 +63,8 @@ def run():
         print(str(column) + "    " + str(df_poverty[column].dtype))
         assert(df_poverty[column].dtype != 'object')
 
-    df_poverty.to_csv('../../data/interim/POVERTY_ESTIMATES_2019', index=False)
+    df_poverty.to_csv(
+        '../../data/interim/POVERTY_ESTIMATES_2019.csv', index=False)
 
 
 if __name__ == '__main__':

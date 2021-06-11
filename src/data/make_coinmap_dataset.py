@@ -112,7 +112,8 @@ def run():
 
     # save to interm data folder
     print(f"{elt_utilities.bcolors.OKGREEN}Coinmap data extraction and transformation complete. Saving to ../../data/interim/CRYTO_VENUES_USA...\n{elt_utilities.bcolors.ENDC}")
-    df_venues_usa.to_csv('../../data/interim/CRYTO_VENUES_USA', index=False)
+    df_venues_usa.to_csv(
+        '../../data/interim/CRYTO_VENUES_USA.csv', index=False)
 
 
 if __name__ == '__main__':
