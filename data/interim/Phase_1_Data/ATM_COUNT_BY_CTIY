@@ -1,0 +1,958 @@
+city,state,count
+Birmingham,Alabama,63
+Cullman,Alabama,1
+Decatur,Alabama,9
+Dothan,Alabama,9
+Eufaula,Alabama,1
+Florence,Alabama,2
+Homewood,Alabama,1
+Huntsville,Alabama,60
+Millbrook,Alabama,1
+Mobile,Alabama,32
+Montgomery,Alabama,53
+Talladega,Alabama,1
+Anchorage,Alaska,6
+Chino Valley,Arizona,1
+Douglas,Arizona,2
+Eagar,Arizona,1
+Flagstaff,Arizona,11
+Green Valley,Arizona,1
+Kingman,Arizona,14
+Peoria,Arizona,1
+Phoenix,Arizona,387
+Prescott,Arizona,2
+Prescott Valley,Arizona,2
+San Luis,Arizona,1
+Sedona,Arizona,4
+Show Low,Arizona,1
+Somerton,Arizona,1
+Tucson,Arizona,27
+Yuma,Arizona,7
+Bentonville,Arkansas,2
+Conway,Arkansas,1
+Decatur,Arkansas,1
+El Dorado,Arkansas,1
+Fayetteville,Arkansas,30
+Fort Smith,Arkansas,15
+Harrison,Arkansas,1
+Hot Springs,Arkansas,1
+Jonesboro,Arkansas,24
+Little Rock,Arkansas,90
+Marianna,Arkansas,1
+Marion,Arkansas,1
+Melbourne,Arkansas,1
+Mineral Springs,Arkansas,1
+Mountain Home,Arkansas,1
+Newport,Arkansas,1
+Rogers,Arkansas,3
+Springdale,Arkansas,2
+Texarkana,Arkansas,7
+Warren,Arkansas,1
+West Memphis,Arkansas,1
+Wynne,Arkansas,1
+Anaheim,California,4
+Atascadero,California,1
+Bakersfield,California,31
+Beaumont,California,1
+Brawley,California,2
+Brea,California,2
+Chico,California,2
+Chula Vista,California,1
+Coachella,California,1
+"Concord, CA",California,2
+Cotati,California,1
+El Centro,California,1
+El Sobrante,California,1
+Encinitas,California,1
+Eureka,California,7
+Fortuna,California,1
+Fresno,California,43
+Garberville,California,1
+Hayward,California,2
+Indio,California,2
+Irvine,California,1
+La Habra,California,1
+Lancaster,California,4
+Lemon Grove,California,1
+Los Angeles,California,1274
+Marina,California,2
+Merced,California,1
+Mill Valley,California,1
+Monterey,California,1
+Nevada City,California,1
+Newark,California,3
+Ontario,California,2
+Pacheco,California,1
+"Palm Springs, CA",California,1
+Rancho Mirage,California,1
+Redding,California,7
+Redwood City,California,1
+Richmond,California,1
+"Richmond, CA, US",California,10
+Riverside,California,4
+Sacramento,California,281
+San Bernardino,California,3
+San Diego,California,241
+San Fernando,California,1
+San Francisco,California,368
+San Jacinto,California,1
+San Jose,California,39
+"San Jose, Ca",California,25
+Santa Barbara,California,8
+Santa Clarita,California,1
+Santa Fe Springs,California,1
+Santa Maria,California,3
+Santa Rosa,California,5
+South Lake Tahoe,California,2
+South San Francisco,California,1
+Stockton,California,1
+Torrance,California,1
+Tustin,California,3
+Twentynine Palms,California,1
+Vallejo,California,1
+Ventura,California,1
+Victorville,California,1
+Visalia,California,1
+Walnut,California,1
+Aurora CO,Colorado,3
+Boulder,Colorado,1
+Carbondale,Colorado,1
+Colorado Springs,Colorado,10
+Denver,Colorado,297
+Durango,Colorado,2
+Grand Junction,Colorado,10
+Highlands Ranch,Colorado,1
+Lafayette,Colorado,1
+Steamboat Springs,Colorado,1
+Bolton,Connecticut,1
+Bridgeport,Connecticut,78
+Bristol,Connecticut,1
+Danbury,Connecticut,1
+Hartford,Connecticut,147
+Hartford,Connecticut,2
+Manchester,Connecticut,1
+New Haven,Connecticut,52
+New London,Connecticut,11
+Niantic,Connecticut,1
+North Haven,Connecticut,1
+Plymouth,Connecticut,1
+Stamford,Connecticut,10
+Waterbury,Connecticut,11
+West Haven,Connecticut,1
+Wilton,Connecticut,1
+Bear,Delaware,1
+Delmar,Delaware,1
+Dover,Delaware,15
+Felton,Delaware,1
+Georgetown,Delaware,1
+Laurel,Delaware,1
+Milford,Delaware,5
+New Castle,Delaware,1
+Newark,Delaware,2
+Rehoboth Beach,Delaware,1
+Wilmington,Delaware,42
+Callaway,Florida,1
+Crestview,Florida,2
+Daytona Beach,Florida,3
+Fern Park,Florida,1
+Fort Lauderdale,Florida,23
+Fort Myers,Florida,66
+Fort Myers,Florida,1
+Fort Myers,Florida,1
+Fort Myers Beach,Florida,1
+Fort Pierce,Florida,5
+Fruitland Park,Florida,1
+Gainesville,Florida,22
+Hollywood,Florida,3
+Jacksonville,Florida,141
+Key West,Florida,1
+Lady Lake,Florida,2
+Lake City,Florida,1
+Lake Wales,Florida,1
+Lakeland,Florida,4
+Largo,Florida,3
+Lecanto,Florida,1
+Melbourne Beach,Florida,1
+Miami,Florida,529
+Miami Beach,Florida,13
+Niceville,Florida,1
+North Miami,Florida,5
+Ocala,Florida,13
+Okeechobee,Florida,1
+Orlando,Florida,475
+Panama City,Florida,21
+Pensacola,Florida,26
+Pinellas Park,Florida,1
+Pompano Beach,Florida,2
+Port Charlotte,Florida,1
+Port St. Lucie,Florida,1
+Saint Pete Beach,Florida,1
+Sarasota,Florida,1
+Spring Hill,Florida,1
+Spring Hill,Florida,1
+St. Petersburg,Florida,5
+St. Petersburg,Florida,6
+Sunny Isles Beach,Florida,1
+Tallahassee,Florida,30
+Tampa,Florida,420
+Titusville,Florida,1
+West Palm Beach,Florida,93
+West Park,Florida,1
+Albany,Georgia,12
+Athens,Georgia,12
+Atlanta,Georgia,658
+Augusta,Georgia,28
+Brunswick,Georgia,10
+Centerville,Georgia,1
+Clarkston,Georgia,2
+Columbus,Georgia,12
+Dallas,Georgia,1
+Dalton,Georgia,4
+Douglas,Georgia,1
+Eatonton,Georgia,2
+Hephzibah,Georgia,1
+LaFayette,Georgia,1
+Macon,Georgia,21
+Milledgeville,Georgia,1
+Milton,Georgia,1
+Rome,Georgia,7
+Savannah,Georgia,62
+Suwanee,Georgia,1
+Trenton,Georgia,1
+Valdosta,Georgia,12
+Hilo,Hawaii,4
+Honolulu,Hawaii,35
+Kailua Kona,Hawaii,2
+Kapaa,Hawaii,1
+Lahaina,Hawaii,1
+Boise,Idaho,10
+Chubbuck,Idaho,1
+Coeur d'Alene,Idaho,6
+Idaho Falls,Idaho,7
+Lewiston,Idaho,1
+Nampa,Idaho,2
+Pocatello,Idaho,2
+Twin Falls,Idaho,1
+Arlington Heights,Illinois,1
+Atlanta,Illinois,1
+Aurora,Illinois,8
+Aurora IL,Illinois,7
+Bartlett,Illinois,2
+Beach Park,Illinois,1
+Belleville,Illinois,25
+Bloomingdale,Illinois,1
+Carbondale,Illinois,11
+Carol Stream,Illinois,4
+Cary,Illinois,1
+Champaign,Illinois,4
+Charleston,Illinois,1
+Chicago,Illinois,757
+Chicago,Illinois,17
+Christopher,Illinois,1
+Collinsville,Illinois,1
+Crete,Illinois,1
+Decatur,Illinois,1
+Des Plaines,Illinois,1
+Elmwood Park,Illinois,1
+Evanston,Illinois,2
+Fairview Heights,Illinois,1
+Flora,Illinois,1
+Franklin Park,Illinois,1
+Geneseo,Illinois,1
+Glenview,Illinois,1
+Grayville,Illinois,1
+Harrisburg,Illinois,2
+Herrin,Illinois,1
+Heyworth,Illinois,1
+Hillsdale,Illinois,1
+Huntley,Illinois,1
+Lemont,Illinois,1
+Manteno,Illinois,1
+Marion,Illinois,9
+Markham,Illinois,1
+Martinsville,Illinois,1
+Mount Zion,Illinois,1
+Naperville,Illinois,8
+New Berlin,Illinois,1
+Okawville,Illinois,1
+Paris,Illinois,1
+Peoria,Illinois,65
+Quincy,Illinois,3
+Rock Island,Illinois,1
+Rockford,Illinois,2
+Rockford,Illinois,17
+Roselle,Illinois,1
+Schaumburg,Illinois,1
+South Chicago Heights,Illinois,1
+Springfield,Illinois,19
+"Springfield, IL",Illinois,28
+St Charles,Illinois,4
+Steeleville,Illinois,1
+Waukegan,Illinois,7
+West Chicago,Illinois,1
+West Dundee,Illinois,1
+West Frankfort,Illinois,1
+Winfield,Illinois,1
+Anderson,Indiana,1
+Austin,Indiana,1
+Bargersville,Indiana,1
+Bloomfield,Indiana,1
+Bloomington,Indiana,4
+Carbondale,Indiana,2
+Clarksville,Indiana,1
+Columbus,Indiana,5
+East Chicago,Indiana,1
+Elkhart,Indiana,1
+Evansville,Indiana,32
+Fort Wayne,Indiana,54
+Gary,Indiana,37
+Goshen,Indiana,1
+Greencastle,Indiana,1
+Highland,Indiana,1
+Huntingburg,Indiana,1
+Indianapolis,Indiana,327
+Lafayette,Indiana,2
+Madison,Indiana,4
+Michigan City,Indiana,10
+Mishawaka,Indiana,3
+Munster,Indiana,1
+New Haven,Indiana,1
+Richmond,Indiana,3
+Rockville,,1
+Rossville,,2
+South Bend,,32
+Springville,,1
+West Lafayette,,1
+Ames,Iowa,1
+Arnolds Park,Iowa,1
+Bettendorf,Iowa,1
+Burlington,Iowa,3
+Cedar Rapids,Iowa,35
+Council Bluffs,Iowa,6
+Davenport,Iowa,11
+Decorah,Iowa,2
+Denison,Iowa,1
+Des Moines,Iowa,48
+Dubuque,Iowa,5
+Elk Horn,Iowa,1
+Iowa City,Iowa,1
+Muscatine,Iowa,1
+Sioux City,Iowa,6
+Spencer,Iowa,1
+Spirit Lake,Iowa,2
+Waterloo,Iowa,18
+West Des Moines,Iowa,3
+Coffeyville,Kansas,1
+Dodge City,Kansas,6
+Garden City,Kansas,1
+Kansas City,Kansas,68
+Oakley,Kansas,1
+Pittsburg,Kansas,1
+Topeka,Kansas,23
+Wichita,Kansas,44
+Wichita,Kansas,1
+Alexandria,Kentucky,1
+Ashland,Kentucky,4
+Bowling Green,Kentucky,15
+Corbin,Kentucky,1
+Covington,Kentucky,1
+Dayton,Kentucky,1
+Elizabethtown,Kentucky,1
+Florence,Kentucky,6
+Hebron,Kentucky,1
+Hopkinsville,Kentucky,2
+Independence,Kentucky,2
+Lexington,Kentucky,15
+London,Kentucky,1
+Louisville,Kentucky,141
+Louisville,Kentucky,10
+Oak Grove,Kentucky,1
+Paducah,Kentucky,4
+Russell Springs,Kentucky,1
+Alexandria,Louisiana,14
+Baton Rouge,Louisiana,68
+Columbia,Louisiana,1
+Harahan,Louisiana,1
+Lafayette,Louisiana,34
+Lake Charles,Louisiana,1
+Monroe,Louisiana,12
+New Iberia,Louisiana,2
+New Orleans,Louisiana,97
+Rayville,Louisiana,1
+Shreveport,Louisiana,30
+Tallulah,Louisiana,1
+Augusta,Maine,4
+Bangor,Maine,5
+Belfast,Maine,1
+Caribou,Maine,1
+Mars Hill,Maine,1
+Millinocket,Maine,1
+Portland,Maine,37
+Portland,Maine,1
+Rumford,Maine,1
+Topsham,Maine,1
+Washburn,Maine,1
+Waterville,Maine,2
+Westbrook,Maine,1
+Annapolis,Maryland,1
+Baltimore,Maryland,228
+Bowie,Maryland,1
+California,Maryland,1
+Clinton,Maryland,1
+"Columbia, MD",Maryland,1
+Cumberland,Maryland,1
+Easton,Maryland,1
+Edgewater,Maryland,1
+Frederick,Maryland,2
+Marlow Heights,Maryland,1
+Ocean City,Maryland,1
+Parkville,Maryland,1
+Salisbury,Maryland,7
+Silver Spring,Maryland,17
+Suitland,Maryland,1
+Townson,Maryland,1
+Upper Marlboro,Maryland,1
+Attleboro,Massachusetts,1
+Boston,Massachusetts,436
+Chicopee,Massachusetts,2
+Dalton,Massachusetts,1
+Easthampton,Massachusetts,1
+Fall River,Massachusetts,2
+Greenfield,Massachusetts,1
+Holliston,Massachusetts,1
+Holyoke,Massachusetts,3
+Hyannis,Massachusetts,1
+Lowell,Massachusetts,1
+New Bedford,Massachusetts,3
+Pittsfield,Massachusetts,2
+Plymouth,Massachusetts,6
+Springfield,Massachusetts,37
+Worcester,Massachusetts,9
+Adrian,Michigan,2
+Alpena,Michigan,1
+Battle Creek,Michigan,2
+Cheboygan,Michigan,1
+Coldwater,Michigan,1
+Detroit,Michigan,2
+Detroit,Michigan,497
+Escanaba,Michigan,3
+Flint,Michigan,9
+Grand Rapids,Michigan,62
+Houghton,Michigan,1
+Howell,Michigan,1
+Kalamazoo,Michigan,22
+Lake Orion,Michigan,2
+Lansing,Michigan,32
+Lincoln Park,Michigan,1
+Marquette,Michigan,1
+Midland,Michigan,2
+New Haven,Michigan,1
+Portage,Michigan,1
+Rockford,Michigan,1
+Saginaw,Michigan,3
+Sault Ste. Marie,Michigan,1
+Traverse City,Michigan,13
+Wyoming,Michigan,1
+Albertville,Minnesota,3
+Bemidji,Minnesota,1
+Brainerd,Minnesota,1
+Duluth,Minnesota,9
+Fairmont,Minnesota,1
+International Falls,Minnesota,1
+Marshall,Minnesota,1
+Minneapolis,Minnesota,179
+St. Cloud,Minnesota,1
+Willmar,Minnesota,1
+Batesville,Mississippi,1
+Biloxi,Mississippi,31
+Corinth,Mississippi,2
+Dundee,Mississippi,1
+Greenville,Mississippi,1
+Grenada,Mississippi,1
+Gulfport,Mississippi,1
+Hattiesburg,Mississippi,23
+Indianola,Mississippi,1
+Jackson,Mississippi,64
+Southaven,Mississippi,1
+Southaven,Mississippi,14
+Starkville,Mississippi,2
+Tupelo,Mississippi,34
+Boonville,Missouri,1
+Cameron,Missouri,1
+Carthage,Missouri,2
+Columbia,Missouri,9
+"Columbia, MO",Missouri,18
+Concordia,Missouri,1
+Eugene,Missouri,1
+Gladstone,Missouri,1
+Grandview,Missouri,1
+Independence,Missouri,9
+Jefferson City,Missouri,3
+Joplin,Missouri,1
+Kansas City,Missouri,43
+"Kansas City, MO",Missouri,73
+Kennett,Missouri,1
+Oak Grove,Missouri,1
+Poplar Bluff,Missouri,3
+Richland,Missouri,1
+Saint Joseph,Missouri,2
+Saint Joseph,Missouri,7
+Saint Robert,Missouri,1
+Sedalia,Missouri,1
+Springfield,Missouri,35
+St. Louis,Missouri,179
+Taylor,Missouri,1
+West Plains,Missouri,2
+Windsor,Missouri,1
+Billings,Montana,6
+Box Elder,Montana,1
+Bozeman,Montana,5
+Butte,Montana,2
+Great Falls,Montana,8
+Kalispell,Montana,3
+Missoula,Montana,4
+Chadron,Nebraska,1
+Columbus,Nebraska,1
+Kearney,Nebraska,1
+Lincoln,Nebraska,4
+Norfolk,Nebraska,1
+North Platte,Nebraska,1
+Omaha,Nebraska,64
+South Sioux City,Nebraska,1
+Carson City,Nevada,2
+Henderson,Nevada,1
+Las Vegas,Nevada,211
+Reno,Nevada,23
+Claremont,New Hampshire,1
+Concord,New Hampshire,14
+Durham,New Hampshire,1
+Keene,New Hampshire,1
+Lancaster,New Hampshire,1
+Manchester,New Hampshire,13
+Manchester (USA),New Hampshire,32
+Pelham,New Hampshire,1
+Rochester,New Hampshire,1
+Absecon,New Jersey,1
+Allentown,New Jersey,1
+Atco,New Jersey,1
+Atlantic City,New Jersey,38
+Atlantic Highlands,New Jersey,1
+Bellmawr,New Jersey,1
+Bergenfield,New Jersey,1
+Cherry Hill,New Jersey,1
+City of Orange,New Jersey,1
+Clementon,New Jersey,2
+Dover,New Jersey,1
+Edison,New Jersey,2
+Elizabeth,New Jersey,2
+Fair Haven,New Jersey,1
+Franklin Township,New Jersey,1
+Freehold,New Jersey,2
+Glassboro,New Jersey,1
+Haledon,New Jersey,1
+Hazlet,New Jersey,1
+Hillsdale,New Jersey,1
+Hopatcong,New Jersey,1
+Jersey City,New Jersey,102
+Long Branch,New Jersey,2
+Manalapan Township,New Jersey,1
+Millville,New Jersey,5
+Neptune City,New Jersey,1
+New Brunswick,New Jersey,2
+Newark,New Jersey,406
+Old Bridge Township,New Jersey,1
+Paterson,New Jersey,6
+Pine Hill,New Jersey,1
+Red Bank,New Jersey,1
+Roxbury Township,New Jersey,1
+Sayreville,New Jersey,1
+Sicklerville,New Jersey,1
+Somerdale,New Jersey,2
+South Plainfield,New Jersey,1
+Toms River,New Jersey,10
+Trenton,New Jersey,135
+Wallington,New Jersey,1
+Wildwood,New Jersey,1
+Albuquerque,New Mexico,52
+Bloomfield,New Mexico,2
+Carlsbad,New Mexico,1
+Clayton,New Mexico,1
+Clovis,New Mexico,17
+Farmington,New Mexico,5
+Hobbs,New Mexico,15
+Hurley,New Mexico,1
+Las Cruces,New Mexico,7
+Las Vegas,New Mexico,1
+Portales,New Mexico,8
+Roswell,New Mexico,9
+Santa Fe,New Mexico,30
+Shiprock,New Mexico,1
+Taos,New Mexico,1
+Texico,New Mexico,1
+Truth or Consequences,New Mexico,1
+Tucumcari,New Mexico,2
+Albany,New York,5
+Buffalo,New York,1
+Cicero,New York,1
+Elmira,New York,1
+Endicott,New York,1
+Levittown,New York,1
+Melville,New York,1
+New York,New York,155
+Port Jervis,New York,1
+Poughkeepsie,New York,2
+Queensbury,New York,1
+Riverhead,New York,1
+Rochester,New York,1
+Shirley,New York,2
+Asheville,North Carolina,29
+Boone,North Carolina,1
+Burnsville,North Carolina,1
+Candler,North Carolina,2
+Charlotte,North Carolina,256
+Durham,North Carolina,1
+Elizabeth City,North Carolina,2
+Fayetteville,North Carolina,10
+Gaston,North Carolina,1
+Greensboro,North Carolina,97
+Greenville,North Carolina,2
+"Greenville, NC",North Carolina,2
+Jacksonville,North Carolina,8
+Morehead City,North Carolina,2
+Murphy,North Carolina,1
+Newport,North Carolina,1
+Raleigh,North Carolina,273
+Swansboro,North Carolina,1
+Valdese,North Carolina,1
+Waynesville,North Carolina,2
+Wilmington,North Carolina,22
+Winston-Salem,North Carolina,6
+Bismarck,North Dakota,9
+Dickinson,North Dakota,1
+Fargo,North Dakota,13
+Grand Forks,North Dakota,4
+Jamestown,North Dakota,1
+Minot,North Dakota,7
+Williston,North Dakota,1
+Akron,Ohio,4
+Amherst,Ohio,1
+Barnesville,Ohio,1
+Beavercreek,Ohio,1
+Bridgeport,,1
+Brooklyn,,1
+Canton,,4
+Chillicothe,,1
+Cincinnati,,113
+Cleveland,,259
+Columbus,,143
+Convoy,,1
+Dayton,,35
+Defiance,,2
+Ironton,,1
+Jackson,,1
+Lima,,2
+Springfield,,11
+Struthers,,1
+Toledo,,86
+West Portsmouth,,1
+Williamsport,,1
+Willowick,,1
+Youngstown,,19
+Zanesville,,3
+Altus,Oklahoma,5
+Blackwell,Oklahoma,1
+Chandler,Oklahoma,1
+Cleveland,Oklahoma,2
+Clinton,Oklahoma,1
+Durant,Oklahoma,1
+Edmond,Oklahoma,1
+Enid,Oklahoma,2
+Guymon,Oklahoma,3
+Muskogee,Oklahoma,2
+Norman,Oklahoma,1
+Oklahoma City,Oklahoma,146
+Pocola,Oklahoma,1
+Sayre,Oklahoma,1
+Tulsa,Oklahoma,49
+Weatherford,Oklahoma,2
+Woodward,Oklahoma,1
+Ashland,Oregon,3
+Astoria,Oregon,1
+Bend,Oregon,10
+Cave Junction,Oregon,1
+Coos Bay,Oregon,1
+Eugene,Oregon,10
+Grants Pass,Oregon,1
+La Grande,Oregon,1
+Madras,Oregon,1
+Medford,Oregon,17
+Merlin,Oregon,1
+Pendleton,Oregon,1
+Portland,Oregon,168
+Redmond,Oregon,1
+Salem,Oregon,2
+"Springfield, OR",Oregon,1
+The Dalles,Oregon,1
+Allentown,Pennsylvania,63
+Altoona,Pennsylvania,1
+Ambler,Pennsylvania,1
+Bartonsville,Pennsylvania,1
+Bensalem Township,Pennsylvania,1
+Catasauqua,Pennsylvania,2
+Collegeville,Pennsylvania,1
+Dupont,Pennsylvania,1
+Emlenton,Pennsylvania,1
+Erie,Pennsylvania,8
+Folcroft,Pennsylvania,1
+Harrisburg,Pennsylvania,107
+Hazleton,Pennsylvania,1
+Jersey Shore,Pennsylvania,1
+Kane,Pennsylvania,1
+Lancaster,Pennsylvania,8
+"Lancaster, PA",Pennsylvania,4
+Meadville,Pennsylvania,1
+Montoursville,Pennsylvania,2
+New Castle,Pennsylvania,1
+Philadelphia,Pennsylvania,327
+Pittsburgh,Pennsylvania,135
+Scranton,Pennsylvania,37
+State College,Pennsylvania,2
+Throop,Pennsylvania,1
+Whitehall,Pennsylvania,1
+Wilkes-Barre,Pennsylvania,11
+Williamsport,Pennsylvania,1
+Cranston,Rhode Island,1
+East Providence,Rhode Island,2
+Middletown,Rhode Island,1
+Newport,Rhode Island,1
+Pawtucket,Rhode Island,1
+Providence,Rhode Island,28
+Warwick,Rhode Island,26
+Woonsocket,Rhode Island,1
+Anderson,South Carolina,4
+Beaufort,South Carolina,3
+Charleston,South Carolina,47
+Columbia,South Carolina,112
+Darlington,South Carolina,2
+Florence,South Carolina,16
+Greenville,South Carolina,42
+"Greenville, SC",South Carolina,45
+Hardeeville,South Carolina,1
+Lake City,South Carolina,1
+Laurens,South Carolina,1
+Myrtle Beach,South Carolina,22
+New Zion,South Carolina,1
+Rock Hill,South Carolina,6
+Roebuck,South Carolina,1
+Spartanburg,South Carolina,1
+Surfside Beach,South Carolina,1
+West Columbia,South Carolina,2
+Belle Fourche,South Dakota,1
+Hot Springs,South Dakota,3
+Huron,South Dakota,1
+Kadoka,South Dakota,1
+Mitchell,South Dakota,1
+Murdo,South Dakota,2
+Oacoma,South Dakota,1
+Pierre,South Dakota,2
+Rapid City,South Dakota,16
+Sioux Falls,South Dakota,11
+Spearfish,South Dakota,1
+Vermillion,South Dakota,1
+Watertown,South Dakota,2
+Yankton,South Dakota,1
+Bristol,Tennessee,1
+Chattanooga,Tennessee,81
+Cleveland,Tennessee,2
+Cookeville,Tennessee,1
+Covington,Tennessee,1
+Decherd,Tennessee,1
+Greeneville,Tennessee,2
+Jackson,Tennessee,4
+"Jackson, TN",Tennessee,8
+Johnson City,Tennessee,13
+Kingsport,Tennessee,17
+Kingston,Tennessee,3
+Knoxville,Tennessee,157
+Louisville,Tennessee,1
+Madisonville,Tennessee,1
+Manchester,Tennessee,2
+Manchester,Tennessee,1
+Mason,Tennessee,1
+Memphis,Tennessee,166
+Murfreesboro,Tennessee,1
+Nashville,Tennessee,197
+Oakland,Tennessee,1
+Portland,Tennessee,3
+Shelbyville,Tennessee,1
+Union City,Tennessee,1
+Abilene,Texas,48
+Albany,Texas,1
+Alpine,Texas,1
+Alton,Texas,1
+Amarillo,Texas,58
+Austin,Texas,302
+Austin,Texas,15
+Baird,Texas,1
+Bangs,Texas,1
+Beaumont,Texas,6
+Big Lake,Texas,2
+Booker,Texas,1
+Brady,Texas,1
+Center,Texas,1
+Cleveland,Texas,1
+Clyde,Texas,1
+College Station,Texas,1
+Corpus Christi,Texas,1
+Corpus Christi,Texas,32
+Corpus Christi,Texas,1
+Crockett,Texas,1
+Dalhart,Texas,2
+Dallas,Texas,691
+Eagle Pass,Texas,1
+Early,Texas,1
+Eden,Texas,1
+Edinburg,Texas,23
+El Campo,Texas,1
+El Paso,Texas,47
+Fort Stockton,Texas,1
+Fort Worth,Texas,1
+Fort Worth,Texas,18
+Graham,Texas,1
+Hamilton,Texas,1
+Harlingen,Texas,2
+Hermleigh,Texas,1
+Houston,Texas,742
+Junction,Texas,1
+Killeen,Texas,1
+Lamesa,Texas,2
+Laredo,Texas,14
+Levelland,Texas,2
+Longview,Texas,3
+Lubbock,Texas,78
+Lufkin,Texas,1
+Marfa,Texas,2
+Mason,Texas,1
+McAllen,Texas,1
+McAllen,Texas,12
+Nacogdoches,Texas,4
+Odessa,Texas,70
+Perryton,Texas,1
+Portland,Texas,1
+Queen City,Texas,1
+Raleigh,Texas,3
+Richardson,Texas,1
+Rockwall,Texas,2
+Roswell,Texas,1
+Rowlett,Texas,1
+Sachse,Texas,1
+San Angelo,Texas,60
+San Antonio,Texas,2
+San Antonio,Texas,2
+San Antonio,Texas,26
+San Antonio,Texas,1
+San Augustine,Texas,1
+Sealy,Texas,1
+Shepherd,Texas,1
+Stamford,Texas,4
+Stephenville,Texas,1
+Stratford,Texas,1
+Texarkana,Texas,5
+Trinity,Texas,1
+Tyler,Texas,19
+Vernon,Texas,3
+Victoria,Texas,10
+Waco,Texas,3
+Wichita Falls,Texas,17
+Logan,Utah,1
+Meadow,Utah,1
+Salt Lake City,Utah,79
+St. George,Utah,5
+West Jordan,Utah,2
+Alexandria,Virginia,83
+Bedford,Virginia,1
+Blacksburg,Virginia,4
+Bluefield,Virginia,1
+Bristol,Virginia,2
+Charlottesville,Virginia,2
+Chesapeake,Virginia,1
+Christiansburg,Virginia,1
+Dunn Loring,Virginia,1
+Fairfield,Virginia,1
+Fredericksburg,Virginia,1
+Hampton,Virginia,6
+Harrisonburg,Virginia,1
+Leesburg,Virginia,2
+Lynchburg,Virginia,10
+Manassas,Virginia,1
+Martinsville,Virginia,3
+Newport News,Virginia,2
+Norfolk,Virginia,93
+Reston,Virginia,2
+Richmond,Virginia,88
+"Richmond, VA, US",Virginia,27
+Roanoke,Virginia,30
+Tazewell,Virginia,1
+Vienna,Virginia,1
+Virginia Beach,Virginia,2
+Winchester,Virginia,10
+Woodstock,Virginia,1
+Aberdeen,Washington,1
+Bellingham,Washington,4
+Benton City,Washington,2
+Clarkston,Washington,1
+Kennewick,Washington,3
+Moses Lake,Washington,1
+Olympia,Washington,1
+Port Angeles,Washington,1
+Poulsbo,Washington,1
+Prosser,Washington,1
+Richland,Washington,2
+Seattle,Washington,113
+Spokane,Washington,15
+Spokane Valley,Washington,1
+Tacoma,Washington,3
+Vancouver US,Washington,8
+Walla Walla,Washington,1
+Wenatchee,Washington,1
+Yakima,Washington,21
+Washington,Washington D.C.,50
+Baker,West Virginia,1
+Bridgeport,West Virginia,3
+Charleston,West Virginia,4
+Dunbar,West Virginia,1
+Fairmont,West Virginia,4
+Morgantown,West Virginia,5
+Moundsville,West Virginia,1
+Parkersburg,West Virginia,2
+South Charleston,West Virginia,8
+Weirton,West Virginia,2
+Appleton,Wisconsin,4
+Coleman,Wisconsin,1
+Eau Claire,Wisconsin,10
+Green Bay,Wisconsin,20
+Hartford,Wisconsin,1
+Hayward,Wisconsin,2
+Jackson,Wisconsin,1
+Janesville,Wisconsin,2
+La Crosse,Wisconsin,4
+Madison,Wisconsin,8
+"Madison, WI",Wisconsin,4
+Menasha,Wisconsin,1
+Milwaukee,Wisconsin,213
+Oshkosh,Wisconsin,16
+Osseo,Wisconsin,1
+Racine,Wisconsin,2
+Siren,Wisconsin,1
+Superior,Wisconsin,5
+Waukesha,Wisconsin,1
+Wausau,Wisconsin,7
+Wisconsin Rapids,Wisconsin,1
+Casper,Wyoming,3
+Cheyenne,Wyoming,2
+Gillette,Wyoming,1
+Laramie,Wyoming,1
+Newcastle,Wyoming,1
+Sheridan,Wyoming,1
+Sundance,Wyoming,1
+Wheatland,Wyoming,1
